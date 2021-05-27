@@ -125,7 +125,7 @@ let timeOutTime;
     let exitInput =  await prompts({
         type: 'text',
         name: 'input',
-        message: ''
+        message: 'Press q at any time to exit. \n'
     });;
 
     while(exitInput.input !== 'q')
@@ -133,7 +133,7 @@ let timeOutTime;
         exitInput =  await prompts({
             type: 'text',
             name: 'input',
-            message: 'Press q at any time to exit. \n'
+            message: ''
         });
     }    
 
