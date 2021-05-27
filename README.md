@@ -1,15 +1,15 @@
-###### CoinValueMonitor
+# CoinValueMonitor
 
 This is a small program that lets you update the value of a selected cryptocurrency using puppeteer.
 
-## Requerimentos
+### Requerimientos
 
 Necesitaras Node.js y los siguientes paquetes para utilizarlo:
 
 -   npm install puppeteer
 -   npm install prompt
 
-## Uso
+### Uso
 
 Para utilizar el programa, solo ejecute el siguiente comando y siga las instrucciones presentadas en la consola.
 
